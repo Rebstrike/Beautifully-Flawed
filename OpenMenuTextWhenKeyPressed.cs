@@ -1,0 +1,1 @@
+﻿using UnityEngine;  public class OpenMenuTextWhenKeyPressed : MonoBehaviour {      public GameObject menuText;      private void Update()     {         if (Input.anyKeyDown)         {             menuText.SetActive(true);             gameObject.SetActive(false);         }     } } 
